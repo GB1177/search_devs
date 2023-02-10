@@ -1,27 +1,35 @@
-# SearchDevs
+# search-devs
+Projeto desenvolvido em Angular 14, consumindo APIs para busca de perfis no GitHub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
+--Requisitos--
+Node v14.15.0 ou superior
+NPM 9.2.0 ou superior
+Angular 14.2.10 ou superior
 
-## Development server
+--Instalando o projeto na máquina--
+Clone o repositório do projeto para sua máquina local usando o seguinte comando:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+git clone https://github.com/GB1177/search-devs.git
 
-## Code scaffolding
+Navegue até a pasta do projeto usando o seguinte comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd search-devs
 
-## Build
+--Instalando as dependências do projeto--
+Instale todas as dependências do projeto usando o seguinte comando:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install
 
-## Running unit tests
+--Rodando o ambiente de desenvolvimento--
+Inicie o servidor de desenvolvimento usando o seguinte comando:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ng serve
 
-## Running end-to-end tests
+Acesse a aplicação no seu navegador usando o endereço http://localhost:4200/
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+--Rodando a build de deploy da aplicação--
+Crie a build de produção da aplicação usando o seguinte comando:
 
-## Further help
+ng build --prod
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+A build será criada na pasta "dist" do seu projeto.

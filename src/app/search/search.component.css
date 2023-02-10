@@ -1,0 +1,40 @@
+.input-search{ 
+    justify-content:center;
+    align-items: center;
+}
+
+button{
+    width: 100%;
+}
+
+#home-search{
+    padding-top: 25%;
+}
+
+#input-search{
+    align-items: center;
+
+}
+
+.alinhamento1 {
+    display: flex;
+}
+
+.alinhamento2 {
+    width: 100%;
+    display: flex;
+}
+
+.buttonAlinhamento {
+    position: relative;
+    right: 6vw;
+}
+
+@media screen and (max-width: 400px) {
+    .buttonAlinhamento {
+        position: relative !important;
+        display: flex !important;
+        justify-content: center !important;
+        left: 2vw !important;
+    }
+}

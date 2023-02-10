@@ -1,0 +1,25 @@
+<div class="container text-center">
+    <div id="home-search">
+        <div class="image-search-devs col-md-12">
+            <img src="assets/img/search-devs.png">
+        </div>
+        <div class="container alinhamento1">
+            <div id="input-search" class="row alinhamento2">
+                <div class="col">
+                    <span class="material-icons md-18">search</span>
+                    <mat-form-field class="col-md-8">
+                        <input [(ngModel)]="username" required placeholder="Search GitHub" name="username" matInput
+                            value="Search">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-2">
+                    <button class="col-md-2 buttonAlinhamento" (click)="search(username)" mat-raised-button
+                     color="primary" [routerLink]="['/profile',username ]">Search
+                    </button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
